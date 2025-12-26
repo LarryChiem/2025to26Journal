@@ -4,21 +4,23 @@ def run_tests():
     obj = Solution()
 
     test_num = 1
-    points = [[0, 0], [2, 2], [3, 10], [5, 2], [7, 0]]
-    expected = 20
-    actual = obj.minCostConnectPoints(points)
+    nums1 = [1, 3]
+    nums2 = [2]
+    expected = 2.0000
+    actual = obj.findMedianSortedArrays(nums1, nums2)
 
     assert actual == expected, (
-        f"Test {test_num} failed, minCostConnectPoints({points}) expected {expected} but returned {actual}."
+        f"Test {test_num} failed, findMedianSortedArrays({nums1}, {nums2}) expected {expected} but returned {actual}."
     )
 
-    test_num += 1
-    points = [[3, 12], [-2, 5], [-4, 1]]
-    expected = 18
-    actual = obj.minCostConnectPoints(points)
+    test_num = 2
+    nums1 = [1, 2]
+    nums2 = [3, 4]
+    expected = 2.5000
+    actual = obj.findMedianSortedArrays(nums1, nums2)
 
     assert actual == expected, (
-        f"Test {test_num} failed, minCostConnectPoints({points}) expected {expected} but returned {actual}."
+        f"Test {test_num} failed, findMedianSortedArrays({nums1}, {nums2}) expected {expected} but returned {actual}."
     )
 
     print(f"All {test_num} tests passed successfully!")
