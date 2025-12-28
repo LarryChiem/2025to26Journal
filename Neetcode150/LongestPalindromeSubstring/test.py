@@ -23,6 +23,8 @@ def run_tests():
         f"Test {test_num} failed, longestPalindrome({s}) expected {expected} but returned {actual}."
     )
 
+    print(f"All {test_num} tests passed successfully!")
+
 run_tests()
 
 
