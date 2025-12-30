@@ -12,4 +12,9 @@ Dec 26, 2025
 - Followed up with C3 ai cancelling dec 31 and scheduled to jan 6 10am interview.
 - followed up with maria porter for career training.
 
+Dec 29, 2025
+- Scheduled screening with Microsoft
+- Reviewed 4. Median of two sorted Arrays in C#
+- Reviewed 543. Diameter of Binary Tree in C#
+- Downloaded .NET on mac
 
