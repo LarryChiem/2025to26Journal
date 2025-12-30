@@ -1,3 +1,4 @@
+# run once 'pip install pytest'
 # To run this test, run 'pytest -q'
 import pytest
 
