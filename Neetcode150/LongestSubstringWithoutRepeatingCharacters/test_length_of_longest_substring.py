@@ -19,7 +19,6 @@ from .solution import Solution
         ("pwwke", 3),
     ],
 )
-
 def test_length_of_longest_substring(s: str, expected: int) -> None:
     """Test longest substring without repeating characters."""
     obj = Solution()

@@ -5,4 +5,3 @@ class ListNode:
 
     def __repr__(self):
         return f"ListNode({self.val})"
-

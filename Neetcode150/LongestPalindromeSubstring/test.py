@@ -1,5 +1,6 @@
 from solution import Solution
 
+
 def run_tests():
     obj = Solution()
 
@@ -9,9 +10,9 @@ def run_tests():
 
     actual = obj.longestPalindrome(s)
 
-    assert actual == expected, (
-        f"Test {test_num} failed, longestPalindrome({s}) expected {expected} but returned {actual}."
-    )
+    assert (
+        actual == expected
+    ), f"Test {test_num} failed, longestPalindrome({s}) expected {expected} but returned {actual}."
 
     test_num += 1
     s = "cbbd"
@@ -19,14 +20,11 @@ def run_tests():
 
     actual = obj.longestPalindrome(s)
 
-    assert actual == expected, (
-        f"Test {test_num} failed, longestPalindrome({s}) expected {expected} but returned {actual}."
-    )
+    assert (
+        actual == expected
+    ), f"Test {test_num} failed, longestPalindrome({s}) expected {expected} but returned {actual}."
 
     print(f"All {test_num} tests passed successfully!")
 
+
 run_tests()
-
-
-    
-

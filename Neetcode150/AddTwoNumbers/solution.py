@@ -3,7 +3,9 @@ from lc_utils.ListNode import ListNode
 
 
 class Solution:
-    def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
+    def addTwoNumbers(
+        self, l1: Optional[ListNode], l2: Optional[ListNode]
+    ) -> Optional[ListNode]:
         dummy = ListNode(0)
         curr = dummy
         carry = 0
@@ -27,6 +29,7 @@ class Solution:
 
         return dummy.next
 
+
 def build_linked_list(values):
     dummy = ListNode(0)
     curr = dummy
@@ -34,6 +37,7 @@ def build_linked_list(values):
         curr.next = ListNode(v)
         curr = curr.next
     return dummy.next
+
 
 def linked_list_to_list(node):
     arr = []

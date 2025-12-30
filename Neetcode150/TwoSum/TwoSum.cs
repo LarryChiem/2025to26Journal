@@ -1,13 +1,13 @@
 using System;
 using System.Collections.Generic;
 
-public class Solution 
+public class Solution
 {
     public static int[] TwoSum(int[] nums, int target)
     {
         Dictionary<int, int> map = new Dictionary<int, int>();
 
-        for (int i = 0; i < nums.Length; i++) 
+        for (int i = 0; i < nums.Length; i++)
         {
             int complement = target - nums[i];
 
@@ -23,4 +23,3 @@ public class Solution
         return new int[0]; // or throw exception if guaranteed solution exists
     }
 }
-

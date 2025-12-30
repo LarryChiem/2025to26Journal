@@ -17,11 +17,11 @@ class Solution:
 
             # Check even length (two center)
             even_left, even_right = expand_from_center(i, i + 1)
-        
+
             if odd_right - odd_left > longest_right - longest_left:
                 longest_left, longest_right = odd_left, odd_right
 
             if even_right - even_left > longest_right - longest_left:
                 longest_left, longest_right = even_left, even_right
-            
-        return s[longest_left:longest_right + 1]
+
+        return s[longest_left : longest_right + 1]

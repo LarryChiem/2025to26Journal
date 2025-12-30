@@ -1,9 +1,10 @@
 from typing import Optional, List
 
+
 class Solution:
     def minCostConnectPoints(self, points: List[List[int]]) -> int:
         n = len(points)
-        INF = 10 ** 18  # "infinity" as int
+        INF = 10**18  # "infinity" as int
 
         min_dist = [INF] * n
         in_mst = [False] * n

@@ -1,4 +1,5 @@
 from typing import Optional, List
+
 # 4. Median of Two Sorted Arrays
 # Given two sorted arrays nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays.
 #
@@ -10,8 +11,9 @@ from typing import Optional, List
 # Output: 2.00000
 # Explanation: merged array = [1,2,3] and median is 2.
 
+
 class Solution:
-    def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) ->float:
+    def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
         total = len(nums1) + len(nums2)
         half = total // 2
 
@@ -26,7 +28,7 @@ class Solution:
         while True:
             # Get the mid-point of A (i) and mid-point of B (j)
             i = (l + r) // 2
-            j = (half - i - 2)
+            j = half - i - 2
 
             INF = 10**18
             # Get both 'mid' points of A and B and checking boundary
@@ -37,7 +39,9 @@ class Solution:
 
             # Partition is correct
             if Aleft <= Bright and Bleft <= Aright:
-                if total % 2: # If odd length, return the min of the two right-side partitions
+                if (
+                    total % 2
+                ):  # If odd length, return the min of the two right-side partitions
                     return min(Aright, Bright)
                 return (max(Aleft, Bleft) + min(Aright, Bright)) / 2
 
