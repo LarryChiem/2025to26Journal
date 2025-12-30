@@ -1,3 +1,7 @@
+""" 3. Longest Substring Without Repeating Characters
+Medium
+Given a string s, find the length of the longest substring without duplicate characters.
+"""
 # run once 'pip install pytest'
 # To run this test, run 'pytest -q'
 
@@ -5,6 +9,7 @@
 import pytest
 
 from .solution import Solution
+
 
 @pytest.mark.parametrize(
     "s,expected",
@@ -14,7 +19,9 @@ from .solution import Solution
         ("pwwke", 3),
     ],
 )
+
 def test_length_of_longest_substring(s: str, expected: int) -> None:
+    """Test longest substring without repeating characters."""
     obj = Solution()
     actual = obj.length_of_longest_substring(s)
 
