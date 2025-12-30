@@ -18,3 +18,4 @@ Dec 29, 2025
 - Reviewed 543. Diameter of Binary Tree in C#
 - Downloaded .NET on mac
 - Applied for HP Jobs
+- Applied for McDonalds
