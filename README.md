@@ -19,3 +19,31 @@ Dec 29, 2025
 - Downloaded .NET on mac
 - Applied for HP Jobs
 - Applied for McDonalds
+
+Jan 1, 2026
+- Applied for Inova, EPIC, WedMD, Bestow, Siemens,
+- Rented room Jan 1-8 airbnb
+- picked up clothing rack for garage
+- System design bit.ly url shortener
+
+Jan 2, 2026
+- Applied for Sony PS
+- Applied for USAJobs Computer engineer
+- Applied for MPMorgan Chase and Plexsys.
+- Finished Hennge technical screen
+- Received PPB psyche questionnaire
+- Received reply from Jacob, CTO at Trend. Scheduled appointment for Jan 7, 3-4PM.
+
+Jan 3, 2026
+- Sent email to Jay for microsoft software design engineer position. Awaiting booking for meeting
+
+TODO
+- Read system design bit.ly shortener
+- Trapping rain water
+- merging intervals
+
+Jan 6, 2026
+- C3 AI tech and system design 10AM-12PM
+
+Jan 7, 2026
+- Meeting with Jacob 3-4PM.

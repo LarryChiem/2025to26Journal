@@ -1,0 +1,19 @@
+POST https://api.challenge.hennge.com/challenges/backend-recursion/004
+Authorization: Basic bGFycnlwY2hpZW1AZ21haWwuY29tOjIwMDA4MzI5MTg=
+Host: api.challenge.hennge.com
+Accept: */*
+Content-Type: application/json
+
+{
+  "github_url": "https://gist.github.com/LarryChiem/a225e72422489622c665da77fd81b6c5",
+  "contact_email": "larrypchiem@gmail.com",
+  "solution_language": "python"
+}
+
+
+
+// on the terminal since I don't have PyCharm License.
+//curl -i -X POST https://api.challenge.hennge.com/challenges/backend-recursion/004 \
+//-H "Content-Type: application/json" \
+//-H "Authorization: Basic bGFycnlwY2hpZW1AZ21haWwuY29tOjEwODY3NTQwMDE=" \
+//-d '{"github_url":"https://gist.github.com/LarryChiem/a225e7242489622c665da77fd81b6c5","contact_email":"larrypchiem@gmail.com","solution_language":"python"}'
